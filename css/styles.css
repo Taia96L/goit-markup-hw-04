@@ -216,6 +216,7 @@ body {
 
 .benefits-list {
   display: flex;
+  gap: 24px;
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
@@ -392,17 +393,16 @@ body {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
-.portfolio-thumb:hover .portfolio-overlay,
-.portfolio-thumb:focus-within .portfolio-overlay {
+.portfolio-item:hover .portfolio-overlay,
+.portfolio-item:focus-within .portfolio-overlay {
   transform: translateY(0);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /* Team and Portfolio section styles end */
 
 /* Footer styles start */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 156px;
+  padding: 100px 0;
   display: flex;
   align-items: baseline;
 }
@@ -410,9 +410,7 @@ body {
 .footer-container {
   display: flex;
   align-items: baseline;
-  justify-content: flex-start;
   flex-wrap: wrap;
-  width: 100%;
 }
 
 .logo-container {
