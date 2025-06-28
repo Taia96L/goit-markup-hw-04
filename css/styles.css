@@ -216,10 +216,10 @@ body {
 
 .benefits-list {
   display: flex;
-  gap: 24px;
 }
 .benefits-item {
   width: calc((100% - 72px) / 4);
+  gap: 24px;
 }
 .benefits-subtitle {
   font-weight: 500;
@@ -362,6 +362,8 @@ body {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .portfolio-thumb {
@@ -464,7 +466,7 @@ body {
   margin: 0;
 }
 
-.social-item {
+.footer .social-item {
   width: 40px;
   height: 40px;
 }
